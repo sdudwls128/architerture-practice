@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\FindingSnack">
+      <UniqueIdentifier>{9632770a-754b-4bf7-be51-809f3c258107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FindingSnack\MainMenu">
+      <UniqueIdentifier>{6527331b-66aa-467a-ac69-6ccc2d61390f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FindingSnack\SelectStage">
+      <UniqueIdentifier>{c83d1f1d-a04b-4128-9b65-0882b30c105f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FindingSnack\Stage">
+      <UniqueIdentifier>{69c338ff-cbd8-44bf-aa04-747ed2fc7de5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FindingSnack.cpp">
+      <Filter>소스 파일\FindingSnack</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>소스 파일\FindingSnack\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\FindingSnack\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectStage.cpp">
+      <Filter>소스 파일\FindingSnack\SelectStage</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainMenu.h">
+      <Filter>소스 파일\FindingSnack\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>소스 파일\FindingSnack\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectStage.h">
+      <Filter>소스 파일\FindingSnack\SelectStage</Filter>
+    </ClInclude>
+    <ClInclude Include="FindingSnack.h">
+      <Filter>소스 파일\FindingSnack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
